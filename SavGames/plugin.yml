@@ -1,0 +1,15 @@
+name: SavGames
+main: me.savant.main.SavGames
+version: "1.0"
+description: "Savant's Minigames API"
+author: _Savant
+commands:
+  sg:
+    description: Basic SavGames Command
+    usage: /sg (help, version, list)
+  l:
+    description: Used to manipulate lobbies!
+    usage: /l (list, delete <uniqueName>, create <uniqueName> <minigame> <maxPlayers>)
+  ltp:
+    description: Teleports to a lobby spawn!
+    usage: /ltp <uniqueName>
